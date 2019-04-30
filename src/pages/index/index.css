@@ -1,0 +1,25 @@
+.index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.index .num-text {
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.index .add_btn {
+  margin-top: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}
+.index .dec_btn {
+  margin-top: 20px;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}

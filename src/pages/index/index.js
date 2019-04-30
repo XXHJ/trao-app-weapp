@@ -3,13 +3,13 @@ import { View, Text } from '@tarojs/components'
 import { AtButton, AtAvatar } from 'taro-ui'
 import { connect } from '@tarojs/redux'
 
-import { add, minus, asyncAdd } from '../../store/actions/counter'
+import { addGet, minus, asyncAdd } from '../../store/actions/counter'
 
 import './index.less'
 
 @connect(({ counter }) => ({ counter }), (dispatch) => ({
   add (count) {
-    dispatch(add(count))
+    dispatch(addGet(count))
   },
   dec () {
     dispatch(minus())
